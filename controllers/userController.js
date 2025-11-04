@@ -202,7 +202,7 @@ function updateUser(request, response) {
       return response.status(200).send({
         success: true,
         message: "User updated sucessfully...",
-        data: updateUser,
+        data: updatedData,
       });
     })
     .catch((error) => {
